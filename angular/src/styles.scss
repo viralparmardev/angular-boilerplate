@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Lexend';
+    src: url("./assets/fonts/LexendDeca-Regular.ttf")
+}
+
+html, body {
+    height: 100%;
+}
+
+*:not(.fa) {
+    font-family: 'Lexend' !important;
+}
+
+html, body { height: 100%; }
+body { margin: 0 }
+
+.no-click {
+    pointer-events: none;
+}
+
+.clickable {
+    cursor: pointer;
+}
